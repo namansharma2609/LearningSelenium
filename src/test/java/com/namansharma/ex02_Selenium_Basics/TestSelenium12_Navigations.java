@@ -19,5 +19,7 @@ public class TestSelenium12_Navigations {
         driver.navigate().forward();
         driver.navigate().back();
         driver.navigate().refresh();
+
+        driver.quit();
     }
 }
